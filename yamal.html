@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ياميل يمال - نجم المستقبل</title>
+  <meta name="description" content="كل ما تود معرفته عن ياميل يمال، فيديوهات، معلومات، مستقبل واعد.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      transition: background-color 0.3s;
+    }
+
+    header {
+      background: linear-gradient(to left, #00c3ff, #004b7f);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px #00c3ff44;
+    }
+
+    h2 {
+      color: #00c3ff;
+    }
+
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #00c3ff;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ياميل يمال - لاماسيا تُبدع من جديد</h1>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>من هو ياميل يمال؟</h2>
+      <p>يامال هو أصغر نجم يسطع في سماء برشلونة، وُلد في 2007 ويملك مهارات استثنائية جعلته حديث العالم رغم صغر سنه. يجمع بين السرعة، الذكاء، والتحكم الكامل في الكرة.</p>
+    </section>
+
+    <section>
+      <h2>🎥 فيديوهات ياميل يمال</h2>
+      <iframe src="https://www.youtube.com/embed/WlJ4p0f5EKk" title="أهداف ياميل يمال"></iframe>
+      <iframe src="https://www.youtube.com/embed/qGR2K7u2NGk" title="مهارات ياميل يمال"></iframe>
+      <iframe src="https://www.youtube.com/embed/95u__4sdPss" title="أفضل لقطاته مع برشلونة"></iframe>
+    </section>
+
+    <section>
+      <h2>🎮 تفاعل مع الموقع</h2>
+      <p>عايز تغيّر لون الموقع؟ دوس الزرار تحت ✨</p>
+      <button onclick="changeBackground()">غير الخلفية!</button>
+    </section>
+
+  </div>
+
+  <footer>
+    ⚽ تصميم: أنت × شات جي بي تي - 2025
+  </footer>
+
+  <script>
+    function changeBackground() {
+      const colors = ['#121212', '#1a1a40', '#002233', '#000000', '#330033'];
+      const current = document.body.style.backgroundColor;
+      let newColor;
+      do {
+        newColor = colors[Math.floor(Math.random() * colors.length)];
+      } while (newColor === current);
+      document.body.style.backgroundColor = newColor;
+    }
+  </script>
+
+</body>
+</html>
