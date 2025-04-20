@@ -1,1 +1,1 @@
-# yamal.html
+# index.html
